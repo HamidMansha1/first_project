@@ -1,0 +1,4 @@
+language: ruby
+dist: focal
+script: echo "its bulit!"
+#travis bulid, don't forget to line!
