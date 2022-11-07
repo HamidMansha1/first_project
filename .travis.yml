@@ -3,4 +3,9 @@ dist: focal
 script: echo "its bulit!"
 #travis bulid, don't forget to line!
 services:
-  - mongodb
+  - postgresql
+  before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+  test:
+  adapter: postgresql
+  database: travis_ci_test
