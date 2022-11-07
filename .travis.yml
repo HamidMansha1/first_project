@@ -2,6 +2,7 @@ language: ruby
 dist: focal
 script: echo "its bulit!"
 #travis bulid, don't forget to line!
+# travis bulid, don't forget to line!
 services:
   - postgresql
   before_script:
