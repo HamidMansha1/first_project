@@ -18,8 +18,7 @@ test:
 #   - gem install rake
 deploy:
   provider: releases
-  api_key: "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"
-  file: "test"
+  api_key: "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"
   skip_cleanup: true
   on:
     tags: false
