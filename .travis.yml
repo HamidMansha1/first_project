@@ -20,9 +20,7 @@ test:
 
 deploy:
   provider: releases
-  api_key: "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"
+  api_key: "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"
   skip_cleanup: true
   on:
     tags: false
-
-    dd
