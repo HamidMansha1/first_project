@@ -3,20 +3,20 @@
 language: ruby
 rvm:
   -  2.6.5
-cache:
-  - bundler
-services:
-  - postgresql
-before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
-test:
-  adapter: postgresql
-  database: demo_task_test
+# cache:
+#   - bundler
+# services:
+#   - postgresql
+# before_script:
+#   - psql -c 'create database travis_ci_test;' -U postgres
+# test:
+#   adapter: postgresql
+#   database: demo_task_test
 # before_script:
 #   - cp config/database.yml.travis config/database.yml
 # before_install:
-  - gem install rake
-    - gem install rake
+  # - gem install rake
+  #   - gem install rake
 
 deploy:
   provider: releases
