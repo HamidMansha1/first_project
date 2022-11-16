@@ -12,6 +12,7 @@ class Api::V1::OwnersController < ApplicationController
     render json: @owner
   end
 #test
+#test
   def destroy
     @owner.delete
     render json: @owner
