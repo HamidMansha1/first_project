@@ -3,8 +3,8 @@
 language: ruby
 rvm:
   -  2.6.5
-  before_script:
-  - psql -c "CREATE USER demo_task WITH PASSWORD 'DEMO_TASK_DATABASE_PASSWORD';" -U postgres
+  # before_script:
+  # - psql -c "CREATE USER demo_task WITH PASSWORD 'DEMO_TASK_DATABASE_PASSWORD';" -U postgres
 # cache:
 #   - bundler
 # services:
