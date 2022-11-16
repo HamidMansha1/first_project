@@ -11,7 +11,7 @@ class Api::V1::OwnersController < ApplicationController
     @owner.save!
     render json: @owner
   end
-
+#test
   def destroy
     @owner.delete
     render json: @owner
