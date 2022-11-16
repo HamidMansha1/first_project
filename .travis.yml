@@ -18,9 +18,9 @@ rvm:
   # - gem install rake
   #   - gem install rake
 
-# deploy:
-#   provider: releases
-#   api_key: "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"
-#   skip_cleanup: true
-#   on:
-#     tags: false
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  skip_cleanup: true
+  on:
+    tags: false
